@@ -26,14 +26,16 @@
 				
 		    	<?php while (have_posts()) : the_post(); ?>
 
-				<h3 class="post-title musica"><?php the_title(); ?></h3>
+				<h3 class="post-title musica"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 		    	
-					<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		    	
 			    		<?php get_template_part( 'content', get_post_format() ); ?>
 			    				    		
 		    		</div> <!-- /post -->
-		    			        		            
+		    		
+			<div class="veja-mais-link"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">veja mais</a></div>
+	        		            
 		        <?php endwhile; ?>
 	        	        		
 			<?php if ( $wp_query->max_num_pages > 1 ) : ?>
