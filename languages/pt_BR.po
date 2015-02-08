@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Radcliffe v1.07\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-02-08 09:44-0300\n"
+"Last-Translator: Diego Rojas <diego@brasa.art.br>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ radcliffe
+# @ angelo mundy
+#: 404.php:11
+msgid "Error 404"
+msgstr "Erro 404"
+
+# @ radcliffe
+#: 404.php:19
+msgid ""
+"It seems like you have tried to open a page that doesn't exist. It could "
+"have been deleted, moved, or it never existed at all. You are welcome to "
+"search for what you are looking for with the form below."
+msgstr ""
+"Parece que você tentou abrir uma página que não existe. Ela pode ter sido "
+"deletada, movida, ou não existir mesmo. Fique a vontade para fazer uma busca "
+"usando o formulário abaixo."
+
+# @ radcliffe
+#: archive.php:12
+#, php-format
+msgid "Date: %s"
+msgstr "Data: %s"
+
+# @ radcliffe
+#: archive.php:14
+#, php-format
+msgid "Month: %s"
+msgstr "Mês: %s"
+
+# @ radcliffe
+#: archive.php:14
+msgctxt "F = Month, Y = Year"
+msgid "F Y"
+msgstr "F Y"
+
+# @ radcliffe
+#: archive.php:16
+#, php-format
+msgid "Year: %s"
+msgstr "Ano: %s"
+
+# @ radcliffe
+#: archive.php:16
+msgctxt "Y = Year"
+msgid "Y"
+msgstr "Y"
+
+# @ radcliffe
+#: archive.php:18
+#, php-format
+msgid "Category: %s"
+msgstr "Categoria: %s"
+
+# @ radcliffe
+#: archive.php:20
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+# @ radcliffe
+#: archive.php:23
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+# @ radcliffe
+#: archive.php:25
+msgid "Archive"
+msgstr "Arquivos"
+
+# @ radcliffe
+#: archive.php:33 search.php:20 search.php:69
+#, php-format
+msgid "(page %s of %s)"
+msgstr "(página %s de %s)"
+
+# @ radcliffe
+#: archive.php:69 index.php:41 search.php:46
+msgid "Older posts"
+msgstr "Posts anteriores"
+
+# @ radcliffe
+#: archive.php:71 index.php:43 search.php:48
+msgid "Newer posts"
+msgstr "Posts recentes"
+
+# @ radcliffe
+#: comments.php:18
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Comentário"
+msgstr[1] "Comentários"
+
+# @ radcliffe
+#: comments.php:22
+msgid "Add yours"
+msgstr "Adicione o seus"
+
+# @ radcliffe
+#: comments.php:43
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingbacks"
+
+# @ radcliffe
+#: comments.php:63
+msgid "Older Comments"
+msgstr "Comentários anteriores"
+
+# @ radcliffe
+#: comments.php:69
+msgid "Newer Comments"
+msgstr "Comentários recentes"
+
+# @ radcliffe
+#: comments.php:87
+msgid "Comments are closed."
+msgstr "Comentários estão desativados."
+
+# @ radcliffe
+#: comments.php:100
+msgid "Your email address will not be published."
+msgstr "Seu e-mail não será publicado."
+
+# @ radcliffe
+#: comments.php:110
+msgid "Name"
+msgstr "Nome"
+
+# @ radcliffe
+#: comments.php:115
+msgid "Email"
+msgstr "E-mail"
+
+# @ radcliffe
+#: comments.php:120
+msgid "Website"
+msgstr "Website"
+
+# @ radcliffe
+#: content.php:39
+msgid "Sticky"
+msgstr "Sticky"
+
+# @ radcliffe
+#: footer.php:69
+msgid "Theme by"
+msgstr "Tema por"
+
+# @ radcliffe
+#: footer.php:69
+msgid "To the top"
+msgstr "Ir para Topo"
+
+# @ radcliffe
+#: footer.php:69
+msgid "Up"
+msgstr "Subir"
+
+# @ radcliffe
+#: functions.php:68
+msgid "Footer A"
+msgstr "Rodapé A"
+
+# @ radcliffe
+#: functions.php:70
+msgid "Widgets in this area will be shown in the left column in the footer."
+msgstr "Widgets nessa área serão mostrados na coluna esquerda do rodapé."
+
+# @ radcliffe
+#: functions.php:77
+msgid "Footer B"
+msgstr "Footer B"
+
+# @ radcliffe
+#: functions.php:79
+msgid "Widgets in this area will be shown in the middle column in the footer."
+msgstr "Widgets nessa área serão mostrados na coluna central do rodapé."
+
+# @ radcliffe
+#: functions.php:86
+msgid "Footer C"
+msgstr "Footer C"
+
+# @ radcliffe
+#: functions.php:88
+msgid "Widgets in this area will be shown in the right column in the footer."
+msgstr "Widgets nessa área serão mostrados na coluna direita do rodapé."
+
+# @ radcliffe
+#: functions.php:118
+#, php-format
+msgid "Page %s"
+msgstr "Página %s"
+
+# @ radcliffe
+#: functions.php:141
+msgid "Continue reading"
+msgstr "Continue lendo"
+
+# @ radcliffe
+#: functions.php:218
+msgid "Pingback:"
+msgstr "Pingback:"
+
+# @ radcliffe
+#: functions.php:218
+msgid "(Edit)"
+msgstr "(Editar)"
+
+# @ radcliffe
+#: functions.php:237
+msgid "Comment by post author"
+msgstr "Comentado pelo autor do post"
+
+# @ radcliffe
+#: functions.php:237
+msgid "(Post author)"
+msgstr "(Autor do Post)"
+
+# @ radcliffe
+#: functions.php:253
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+# @ radcliffe
+#: functions.php:263
+msgid "Edit"
+msgstr "Editar"
+
+# @ radcliffe
+#: functions.php:265
+msgid "Reply"
+msgstr "Responder"
+
+# @ radcliffe
+#: functions.php:296 functions.php:326
+msgid "Logo"
+msgstr "Logotipo"
+
+# @ radcliffe
+#: functions.php:318
+msgid "Accent Color"
+msgstr "Cor em destaque"
+
+# @ radcliffe
+#: header.php:26
+msgid "Type and press enter"
+msgstr "Digite e pressione Enter"
+
+# @ radcliffe
+#: header.php:53
+msgid "Menu"
+msgstr "Menu"
+
+# @ radcliffe
+#: header.php:88
+msgid "Show the search field"
+msgstr "Show the search field"
+
+# @ radcliffe
+#: header.php:124 searchform.php:2
+msgid "Search form"
+msgstr "Formulário de busca"
+
+# @ radcliffe
+#: header.php:125 searchform.php:3
+msgid "Search"
+msgstr "Busca"
+
+# @ radcliffe
+#: image.php:47 page.php:58 single.php:165 template-archive.php:55
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+"Não encontramos nenhum post com os critérios da busca. Por favor tente "
+"novamente."
+
+# @ radcliffe
+#: index.php:19
+#, php-format
+msgid "Page %s of %s"
+msgstr "Página %s de %s"
+
+# @ radcliffe
+#: search.php:13 search.php:62
+msgid "Search results:"
+msgstr "Resultado da busca:"
+
+# @ radcliffe
+#: search.php:81
+msgid "No results. Try again, would you kindly?"
+msgstr "Sem resultados. Tente de novo, por favor?"
+
+# @ radcliffe
+#: single.php:67
+msgid "About the author"
+msgstr "Sobre o autor"
+
+# @ radcliffe
+#: single.php:81
+msgid "Author archive"
+msgstr "Arquivos do autor"
+
+# @ radcliffe
+#: single.php:89
+msgid "Author website"
+msgstr "Site do autor"
+
+# @ radcliffe
+#: single.php:105
+msgid "About the post"
+msgstr "Sobre o post"
+
+# @ radcliffe
+#: single.php:131
+msgid "Next post:"
+msgstr "Pŕoximo:"
+
+# @ radcliffe
+#: single.php:143
+msgid "Previous post:"
+msgstr "Anteriores:"
+
+# @ radcliffe
+#: functions.php:288
+msgid "Radcliffe Options"
+msgstr "Opções do Radcliffe"
+
+# @ radcliffe
+#: functions.php:291
+msgid "Allows you to customize theme settings for Radcliffe."
+msgstr "Permite que você customize a opções do Radcliffe."
+
+# @ radcliffe
+#: page.php:48 single.php:59
+msgid "Pages:"
+msgstr "Páginas:"
+
+# @ radcliffe
+#: functions.php:298
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr "Suba um logotipo para substituir o Nome do Site como padrão"
