@@ -25,6 +25,8 @@
 			<?php endif; ?>
 				
 		    	<?php while (have_posts()) : the_post(); ?>
+
+				<h3 class="post-title musica"><?php the_title(); ?></h3>
 		    	
 					<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		    	
