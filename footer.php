@@ -54,6 +54,8 @@
 
 <?php endif; ?>
 
+	<div class="clear"></div>
+
 <div class="credits section light-padding">
 
 	<div class="credits-inner section-inner">
