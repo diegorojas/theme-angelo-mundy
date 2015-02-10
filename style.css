@@ -31,10 +31,12 @@ version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 ----------------------------------------------------------------------------------- */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600);
 
 /* -------------------------------------------------------------------------------- */
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------------- */
+
 
 html, body { margin:0; padding:0;}
 
@@ -233,7 +235,7 @@ body a,
 
 .blog-title {
 	float: left;
-	font-family: 'Abril Fatface', serif;
+	font-family: 'Open Sans', serif;
 	font-size: 2em;
 	line-height: 1;
 	text-transform: uppercase;
@@ -318,15 +320,13 @@ ul.main-menu.home a {
 	display: block;
 	padding: 13px 10px;
 	margin-right: 7px;
-	font-size: 0.775em;
-	font-weight: 700;
+	font-size: 1em;
+	font-weight: 300;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	color: #222;
 	border-bottom: 2px solid transparent;
-
-
-
+	color: #2B70B3;
 }
 
 
@@ -341,11 +341,12 @@ ul.main-menu.home a {
 .main-menu a {
 	display: block;
 	padding: 13px 15px;
-	font-size: 0.775em;
-	font-weight: 700;
+	font-size: 1em;
+	font-weight: 300;
 	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: #222;
+	text-transform: lowercase;
+	color: #2F9CBF;
+	border-bottom: 2px solid transparent; 
 }
 
 .main-menu > li > a { border-radius: 3px; }
@@ -367,9 +368,12 @@ ul.main-menu.home a {
 }
 
 .main-menu > li:hover > a { 
-	color: #FFF;
-	background: #2F9CBF; 
-}
+
+	color: #222;
+	border-bottom: 2px solid #2F9CBF; 
+	border-radius: 0px;
+	background: none repeat scroll 0% 0% transparent !important;
+} 
 
 .main-menu > .has-children:hover > a::after,
 .main-menu > .menu-item-has-children:hover > a::after { border-top-color: #fff; }
@@ -936,7 +940,7 @@ p.post-nav-next { background-image: url(images/icons/1x/next-g.png); }
 
 
 .post-content {
-	font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+	font-family: 'Open Sans", sans-serif;
 	font-size: 1.25em;
 }
 
@@ -1443,7 +1447,7 @@ li.comment {
 
 
 .comment-content { 
-	font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.15em;
 }
 
@@ -1758,7 +1762,7 @@ li.comment {
 .archive-container a {
 	display: block;
 	padding: 16px 200px 16px 8px;
-	font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
 	line-height: 120%;
 	color: #222;
@@ -2053,9 +2057,10 @@ li.comment {
 }
 
 .credits p {
-	font-size: 0.8em;
-	font-weight: 700;
-	text-transform: uppercase;
+
+	font-size: 0.9em;
+	font-weight: 300;
+	text-transform: lowercase;
 	text-align: center;
 	line-height: 1.6;
 }

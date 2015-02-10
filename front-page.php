@@ -116,11 +116,7 @@ get_header('home'); ?>
 		    	
 				<div class="clear"></div>
 					
-		    	<?php wp_link_pages('before=<p class="page-links">' . __('Pages:','radcliffe') . ' &after=</p>&seperator= <span class="sep">/</span> '); ?>
-		    
-		    </div>
-
-			<div class="download-link"><a href="#">download do disco abrigação</a></div>
+		    	</div>
 
 		</div> <!-- /post -->
 		
@@ -128,9 +124,13 @@ get_header('home'); ?>
 	
 		<p><?php _e("We couldn't find any posts that matched your query. Please try again.", "radcliffe"); ?></p>
 
+		<div class="clear"></div>
+
 	<?php endif; ?>
 
-	<div class="clear"></div>
+		<div class="download-link"><a href="#">download do disco abrigação</a></div>
+
+		<div class="clear"></div>
 
 	
 	
