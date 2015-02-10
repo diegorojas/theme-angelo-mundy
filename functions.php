@@ -7,7 +7,11 @@
 /**
  * Registrando uma Sidebar diamica para midias sociais
  */
-function angelomundy_theme_widgets_init() {
+// Add footer widget areas
+add_action( 'widgets_init', 'angelomundy_widget_areas_reg' ); 
+
+function angelomundy_widget_areas_reg() {
+
 	register_sidebar( array(
 		'name'          => __( 'Redes Sociais', 'theme-angelo-mundy' ),
 		'id'            => 'sidebar-4',
@@ -46,7 +50,7 @@ function create_post_type_projetos() {
     );
     
     /**
-     * Registamos o tipo de post projetos através desta função
+     * Registramos o tipo de post projetos através desta função
      * passando-lhe os labels e parâmetros de controlo.
      */
     register_post_type( 'projetos', array(
@@ -71,4 +75,12 @@ function create_post_type_projetos() {
 	flush_rewrite_rules();
 }
 
-?>
+ /**
+     * Esta função muda o nome "Posts" no menu do dashboard
+     */
+	add_filter('gettext', 'change_post_to_music');
+	add_filter('ngettext', 'change_post_to_music');
+	function change_post_to_music($translated) {
+	$translated = str_ireplace('Post', 'Musica', $translated);
+	return $translated;
+}
