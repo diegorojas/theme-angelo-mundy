@@ -75,6 +75,60 @@ function create_post_type_projetos() {
 	flush_rewrite_rules();
 }
 
+/**
+ * Adicionando um Custom Post Type para Eventos
+ * através da função add_action( 'init' )
+ */
+add_action( 'init', 'create_post_type_eventos' );
+/**
+ * Esta é a função que é chamada pelo add_action()
+ */
+function create_post_type_eventos() {
+    /**
+     * Labels customizados para o tipo de post
+     */
+    $labels = array(
+	    'name' => _x('Eventos', 'post type general name'),
+	    'singular_name' => _x('Evento', 'post type singular name'),
+	    'add_new' => _x('Novo Evento', 'projeto'),
+	    'add_new_item' => __('Novo Evento'),
+	    'edit_item' => __('Editar Evento'),
+	    'new_item' => __('Novo Evento'),
+	    'all_items' => __('Todos Eventos'),
+	    'view_item' => __('Ver Evento'),
+	    'search_items' => __('Procurar Eventos'),
+	    'not_found' =>  __('Nenhum evento encontrado'),
+	    'not_found_in_trash' => __('Nenhum evento encontrado no lixo'),
+	    'parent_item_colon' => '',
+	    'menu_name' => 'Agenda'
+    );
+    
+    /**
+     * Registramos o tipo de post projetos através desta função
+     * passando-lhe os labels e parâmetros de controlo.
+     */
+    register_post_type( 'eventos', array(
+	    'labels' => $labels,
+	    'public' => true,
+	    'publicly_queryable' => true,
+	    'show_ui' => true,
+	    'show_in_menu' => true,
+	    'has_archive' => true,
+	    'query_var' => true,
+		'rewrite' => array(
+		 'slug' => 'eventos',
+		 'with_front' => false,
+	    ),
+	    'capability_type' => 'post',
+	    'hierarchical' => true,
+	    'menu_position' => null,
+	    'supports' => array('title','editor','thumbnail'),
+		'taxonomies' => array( 'post_tag' )
+	    )
+    );
+	flush_rewrite_rules();
+}
+
  /**
      * Esta função muda o nome "Posts" no menu do dashboard
      */
