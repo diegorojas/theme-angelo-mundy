@@ -28,22 +28,19 @@
 
 		<div class="cada-projeto-archive">
 
+			<a href="<?php the_permalink(); ?>">				
 			<div class="thumb-cada-projeto-archive">
 				<?php the_post_thumbnail('projetos'); ?>
                     
 			</div><!-- .thumb--cada-projeto-archive -->
-
+			</a>
 				<div class="content-cada-projeto-archive">
-					<?php the_excerpt(); ?>
-				<div class="mais-cada-projeto-archive">
-				<a class="a-mais" href="<?php the_permalink(); ?>">
-					<div class="mais">
-						Mais
-					</div><!-- .mais -->
+					
+					<a href="<?php the_permalink(); ?>">
+					<?php the_content(); ?>
 					</a>
-				</div><!-- .mais-cada-projeto-archive -->
-
-		</div><!-- .content-cada-projeto-archive -->
+			
+				</div><!-- .content-cada-projeto-archive -->
 
 			</div><!-- .cada-projeto-archive -->
 			
