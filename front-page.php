@@ -128,11 +128,28 @@ get_header('home'); ?>
 
 	<?php endif; ?>
 
-		<div class="download-link"><a href="#">download do disco abrigação</a></div>
+		<div class="download-link"><a href="http://angelomundy.com.br/abrigacao/angelo_mundy_abrigacao.zip">download do disco abrigação</a></div>
 
 		<div class="clear"></div>
 
-	
+		<div class="section-inner row">
+		
+			<?php if ( is_active_sidebar( 'sidebar-4' ) ) : ?>
+			
+				<div class="column column-1 two-third">
+				
+					<div class="small-padding">
+			
+						<?php dynamic_sidebar( 'sidebar-4' ); ?>
+											
+					</div>
+					
+				</div>
+				
+			<?php endif; ?> <!-- /footer-a -->
+
+		</div>
+	<div class="clear"></div>
 	
 </div> <!-- /content -->
 								

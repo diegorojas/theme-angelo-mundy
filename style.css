@@ -296,7 +296,10 @@ body a,
 /* -------------------------------------------------------------------------------- */
 
 
-.main-menu { margin-top: 2px; }
+.main-menu { 
+	margin-top: 2px; 
+	margin-right: 135px;
+}
 
 ul.main-menu.home {
 	margin: 0 auto;
@@ -634,9 +637,18 @@ a.post-header .post-title {
 	height: 60px;
 }
 
+.social-icons-menu {
+	width: 15%;
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 36px;
+	
+}
+
 
 .download-link {
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	text-align: center;
 	-webkit-transition: opacity 0.3s ease-in-out, top 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out, top 0.3s ease-in-out;
@@ -2286,6 +2298,10 @@ li.comment {
 @media (max-width: 900px) {
 		
 	/* main content */
+
+	.social-icons-menu {
+	display: none;
+	}
 	
 	.post-header { padding: 75px 0; }
 	
@@ -2315,6 +2331,7 @@ li.comment {
 
 
 @media (max-width: 600px) {
+
 
 	body { font-size: 16px; }
 	
