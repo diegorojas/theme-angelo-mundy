@@ -895,7 +895,7 @@ ul#gallery {
 .post-author {
 	width: 55%;
 	float: left;
-	dispky: none;
+	display: none;
 }
 .post-cat-tags { 
 	width: 40%; 
