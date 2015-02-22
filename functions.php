@@ -3,7 +3,7 @@
  * Adiciona suporte adicional a thumbnails
  */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'projetos', 340, 450, true ); //(cropped)
+	add_image_size( 'projetos', 460, 99999, true ); //(cropped)
 /**
  * Registrando uma Sidebar diamica para midias sociais
  */
