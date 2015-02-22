@@ -8,5 +8,5 @@ Layout e concepção: vaz.art.br
  - Eventos
 
 ## Plugins usados no projeto ##
- - Jetpack
- - Simple Social Icon
+ - Gallery Carousel Without JetPack
+ - Easy Social Icons
