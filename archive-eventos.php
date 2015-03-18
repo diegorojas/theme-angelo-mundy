@@ -21,19 +21,15 @@
 
 
 		<div class="cada-projeto-archive">
-
-			<a href="<?php the_permalink(); ?>">				
+					
 			<div class="thumb-cada-projeto-archive">
 				<?php the_post_thumbnail('projetos'); ?>
                     
 			</div><!-- .thumb--cada-projeto-archive -->
-			</a>
-				<div class="content-cada-projeto-archive">
+				<div class="content-cada-evento-archive">
 					
-					<a href="<?php the_permalink(); ?>">
 					<?php the_content(); ?>
-					</a>
-			
+								
 				</div><!-- .content-cada-projeto-archive -->
 
 			</div><!-- .cada-projeto-archive -->
